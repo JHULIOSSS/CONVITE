@@ -402,7 +402,7 @@ span:before {
         justify-content: center;
         align-items: center;
         gap: 40px;
-        left: 16%;
+        left: 14%;
         cursor: pointer;
         transition: transform 0.3s ease-in-out;
         animation: pulse 2.0s infinite;
