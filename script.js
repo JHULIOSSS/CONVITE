@@ -41,7 +41,7 @@ function copiarTexto() {
 
 function enviarWhatsapp() {
     const numero = "5598984251495"; // Substitua pelo seu número com DDI e DDD (ex: 55 + 99 + número)
-    const mensagem = "É com muita alegria que confirmo minha presença na comemoração dos 15 anos da querida Isadora. Estou imensamente grato(a) pelo convite e honrado(a) por poder participar de um momento tão especial e marcante na vida dela. Que esta nova fase seja repleta de sonhos realizados, felicidade e muito amor. Até lá, com o coração cheio de carinho!";
+    const mensagem = "É com muita alegria que confirmo minha presença na comemoração dos 15 anos da querida Isadora. Estou imensamente grato(a) pelo convite e honrado(a) por poder participar de um momento tão especial e marcante na vida dela. Que esta nova fase seja repleta de sonhos realizados, felicidade e muito amor. Até lá, com o coração cheio de carinho!";
 
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, '_blank');
