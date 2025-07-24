@@ -38,11 +38,3 @@ function copiarTexto() {
         document.getElementById("mensagem").innerText = "Erro ao copiar o texto.";
     });
 }
-
-function enviarWhatsapp() {
-    const numero = "5598984251495"; // Substitua pelo seu número com DDI e DDD (ex: 55 + 99 + número)
-    const mensagem = "Olá, quero confirmar presença na festa de 15 anos da Isadora Martins, que acontecerá às 21h do dia 06 de setembro de 2025 no Excelence Buffet Prime. Nome para confirmação:";
-
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
-    window.open(url, '_blank');
-}
